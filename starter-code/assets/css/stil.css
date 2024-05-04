@@ -70,15 +70,24 @@
     padding: 30px;
 }
 .phone{
-    padding: 30px 100px;
+    padding: 30px 150px;
+}
+
+.profile-detalis{
+    h1{
+        font-size: 30px;
+        color: rgb(47, 41, 41);
+    }
+    p{
+
+        font-size: 14px;
+        color: rgb(181, 171, 171);
+        margin-bottom: 30px;
+    }
 }
 
 .profile-upload{
     margin-top: 100px;
-    h1{
-        font-size: 30px;
-        color: rgb(30, 28, 28);
-    }
     p{
 
         font-size: 14px;
@@ -90,10 +99,36 @@
 
 .user-info{
     margin-top: 70px;
+    font-size: 14px;
+    color: rgb(181, 171, 171);
     
     input{
         width: 350px;
         height: 35px;
     }
+    input:hover{
+        border: none;
+        border-color: purple;
+        box-shadow: 0 10px 25px rgba(235, 10, 235, 0.2);
+        box-shadow: 0 -10px 25px rgba(235, 10, 235, 0.2);
+        box-shadow: 10px 0 25px rgba(235, 10, 235, 0.2);
+        box-shadow: -10px 0 25px rgba(235, 10, 235, 0.2);
+
+
+    }
 }
 
+.save{
+    right: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(52, 52, 244);
+}
+.saveBtnDiv{
+    display: flex;
+    justify-content: end;
+}
