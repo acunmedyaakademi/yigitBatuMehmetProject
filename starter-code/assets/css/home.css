@@ -1,10 +1,78 @@
-*{margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;border: none;outline: none;scroll-behavior: smooth;font-family: "Instrument Sans", sans-serif;}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Instrument Sans", sans-serif;}
 :root{
     --bg-color: #ffffff;
     --main-color:rgb(96, 94, 94);
     --main-second-color:rgb(165, 100, 165);
 }
-.links{
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header-link-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-btn{
+    display: flex;
+    gap: 2px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(96, 94, 94);
+    border-radius: 5px;
+
+}
+
+.links-btn:hover{
+    background-color: rgb(233, 221, 233);
+    color: rgb(219, 69, 219);
+
+
+}
+
+.preview{
+    color: rgb(100, 38, 100);
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 7px 20px;
+}
+
+.preview:hover{
+    color: white;
+    background-color: rgb(160, 51, 160);
+}
+
+.profile-details-btn{
+    display: flex;
+    gap: 2px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: rgb(96, 94, 94);
+    border-radius: 5px;
+
+}
+
+.profile-details-btn:hover{
+    background-color: rgb(233, 221, 233);
+    color: rgb(219, 69, 219);
+}
+
+
+/* .links{
     padding-left: 395px;
     font-size: 15px;
     color: var(--main-color);
@@ -23,7 +91,7 @@
     font-weight: bold;
     border-radius: 10px;
     border: 10px;
-}
+} */
 
 .home-content{
     left: 750px;
