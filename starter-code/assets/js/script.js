@@ -1,4 +1,5 @@
 const myForm = document.querySelectorAll(".myForm")
+const boxOneContainer = document.querySelector('.boxOneConteiner');
 document.addEventListener("DOMContentLoaded", function() {
     const addButton = document.querySelector('.addBtn');
     addButton.addEventListener('click', function() {
@@ -22,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </form>
             </div>
         `;
-        document.body.insertAdjacentHTML('beforeend', htmlToAdd);
+        boxOneContainer.insertAdjacentHTML('beforeend', htmlToAdd);
     });
 
     const saveButton = document.querySelector('.save');
