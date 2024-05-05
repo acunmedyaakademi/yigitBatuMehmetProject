@@ -1,1 +1,0 @@
-https://acunmedyaakademi.github.io/yigitBatuMehmetProject/
